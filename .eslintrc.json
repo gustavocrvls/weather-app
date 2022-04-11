@@ -30,6 +30,15 @@
     "import/extensions": "off",
     "no-use-before-define": "warn",
     "import/no-unresolved": "error",
+    "no-param-reassign": [
+      "error",
+      {
+        "props": true,
+        "ignorePropertyModificationsFor": [
+          "state"
+        ]
+      }
+    ],
     "react/jsx-filename-extension": [
       1,
       {
