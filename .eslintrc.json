@@ -52,7 +52,20 @@
       {
         "devDependencies": [
           "**/*.test.ts",
-          "**/*.test.tsx"
+          "**/*.test.tsx",
+          "**/*.stories.tsx"
+        ]
+      }
+    ],
+    "react/jsx-props-no-spreading": [
+      "warn"
+    ],
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": [
+          "arrow-function",
+          "function-declaration"
         ]
       }
     ]
