@@ -53,6 +53,8 @@
         "devDependencies": [
           "**/*.test.ts",
           "**/*.test.tsx",
+          "**/*.spec.ts",
+          "**/*.spec.tsx",
           "**/*.stories.tsx"
         ]
       }
