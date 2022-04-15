@@ -4,8 +4,12 @@ const light: DefaultTheme = {
   borderRadius: '5px',
 
   colors: {
-    primary: 'cyan',
-    secondary: 'magenta',
+    primary: '#3C47E9',
+    secondary: '#6E707A',
+  },
+  typography: {
+    primary: 'black',
+    secondary: 'white',
   },
 }
 
@@ -13,8 +17,12 @@ const dark: DefaultTheme = {
   borderRadius: '5px',
 
   colors: {
-    primary: 'cyan',
-    secondary: 'magenta',
+    primary: '#3C47E9',
+    secondary: '#6E707A',
+  },
+  typography: {
+    primary: 'white',
+    secondary: 'black',
   },
 }
 

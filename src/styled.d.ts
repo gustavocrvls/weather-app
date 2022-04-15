@@ -8,5 +8,10 @@ declare module 'styled-components' {
       primary: string
       secondary: string
     }
+
+    typography: {
+      primary: string
+      secondary: string
+    }
   }
 }
